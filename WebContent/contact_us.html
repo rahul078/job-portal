@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Below 3 lines contains Bootstrap cdn -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Below line is used to link external stylesheet to html page-->
+  <link rel="stylesheet" href="stylesheet/styling.css">
+  <style media="screen">
+    #contact
+    {
+      position: absolute;
+      top:200px;
+      left: 400px;
+      padding: 12px;
+      border: solid thick black;
+      border-radius: 12px;
+      width: 1000px;
+      height: 240px;
+      margin: 50px;
+    }
+    p{
+    	font-size:16px;
+    }
+    body
+    {
+    	background-color:white;
+    }
+  </style>
+</head>
+<body>
+<!-- Code using Bootstrap for navigation bar -->
+  <nav class="navbar navbar-default" id="navigation">
+	<img id="logo" src="images/logo_4.png" />
+	<ul class="nav navbar-nav navbar-right">
+    <li id="current"><a href="homepage.jsp"><center>Homepage</center></a></li>
+    <li><a href="free_trial"><center>Free Trial</center></a></li>
+	  <li><div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="login_button">Login
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" id="dropdown-menu">
+      <li><a href="login.jsp">User Login</a></li>
+      <li><a href="hr_login.jsp">HR Login</a></li>
+      <li><a href="admin_login.jsp">Admin Login</a></li>
+    </ul>
+  </div>
+</div></li>
+	  <li><a href="#"><center>Contact us</center></a></li>
+
+	</ul>
+</nav>
+
+<!--End of navigation bar Code -->
+
+  <<h1 style="position:absolute; top :180px; left:46%">Contact Us</h1>
+  <div id="contact">
+  
+    <center><p><b> Name </b>: Rahul J <br>
+    <b>Contact Number</b>: +91 78994 32445 <br>
+    <b>Email</b>: <a href=""> rahul.jaikumar1998@gmail.com </a><br>
+    <hr>
+    <p><b> Name </b>: Prashanth Anand Kumar <br>
+    <b>Contact Number</b>: +91 85531 02351 <br>
+    <b>Email</b>: <a href=""> prashanthanand10@gmail.com </a><br>
+
+    </p>
+    </center>
+  </div>
+</body>
+</html>

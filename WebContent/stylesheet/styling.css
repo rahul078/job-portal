@@ -1,0 +1,334 @@
+body{
+background-color:#FFFAFA;
+}
+
+#navigation
+{
+  background-color: #1711D3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height:85px;
+  border: 0px ;
+}
+
+#navigation li
+{
+  padding-top: 17.5px;
+  font-size: 25px;
+  padding-bottom:17.5px;
+  color: #FB8604;
+  font-weight:normal;
+  width:160px;
+  align-items: center;
+}
+#navigation li center
+{
+  color:white;
+}
+
+#slider{
+  position:absolute;
+  top:85px;
+  left:0px;
+}
+#logo
+{
+  position:absolute;
+  top: 0px;
+  left: 10px;
+  width:250px;
+  height: 85px;
+}
+#current
+{
+  font-weight: bold;
+  background-color: lightgray;
+
+}
+#current a center
+{
+  color:black;
+  font-weight: bold;
+}
+
+.blocks
+{
+
+  width:400px;
+  height:400px;
+  border:2px solid black;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px grey;
+}
+.blocks p
+{
+  padding: 20px;
+}
+#math
+{
+  position: absolute;
+  top:500px;
+  left:50px ;
+  background-color: white ;
+}
+#verbal
+{
+  position: absolute;
+  top:500px;
+  left:750px ;
+  background-color: white ;
+}
+#situation
+{
+  position: absolute;
+  top:500px;
+  left:1450px ;
+  background-color: white ;
+}
+
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+
+
+#login{
+  position:absolute;
+  top:400px;
+  left:400px;
+
+}
+
+  .page{
+    width: 360px;
+    padding: 10%;
+    margin: auto;
+  }
+  .form{
+    position: absolute;
+    top: 150px;
+    left:700px;
+    z-index: 1;
+    background: #03A9F4;
+    width: 500px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 15px 15px 15px lightblue;
+  }
+  .form input[type=text],input[type=password],input[type=date],input[type=number]{
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    border-radius: 200px;
+  }
+  select#soflow, select#soflow-color {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+  #droplist
+  {
+  background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    border-radius: 200px;
+  }
+  #name
+  {
+  	width:48%
+  }
+  #dob
+  {
+  width:40%;
+  }
+  #phone
+  {
+  width:57%
+  }
+  .form input[type=submit]
+  {
+    background-color: rgba(7,50,195,0.8);
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 20px;
+  }
+    .form input[type=submit]:hover
+    {
+      background-color: rgba(7,20,200,0.8);
+      font-weight: bold;
+    }
+  .form .register{
+    display: none;
+  }
+  .avatar
+  {
+ width:250px;
+  height:250px;
+   align:center;
+   border : 2px solid white;
+   border-radius: 100%;
+
+  }
+.message
+{
+  font-size: 18px;
+  color:white;
+}
+.message a
+{
+  color:black;
+}
+body
+{
+  background-color: #F2F1F7;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+#login_button
+{
+
+  font-size: 25px;
+  color:white;
+  border:0px;
+  background-color: #1711D3;
+  font-weight:normal;
+  width:160px;
+  align-items: center;
+
+}
+#dropdown-menu
+{
+  width:160px;
+}
+#dropdown-menu li
+{
+font-size: 15px;
+}
+#error_code
+{
+	color:red;
+	font-size:30px;
+	font-weight:bold;
+	font-family:Castellar;
+}
+#errors_code
+{
+	color:red;
+	font-size:30px;
+	font-family:Berlin Sans FB;
+	position:absolute;
+	top:100px;
+	left:20px;
+}
+#hr_code
+{
+	color:red;
+	font-size:10px;
+	font-family:Berlin Sans FB;
+	position:absolute;
+	top:100px;
+	left:20px;
+}
+#info_bar
+{
+  position: fixed;
+  top:85px;
+  left:0px;
+  width:100%;
+}
+
+#home 
+{
+	border:2px solid gray;
+	box-shadow:15px 15px 15px lightgray;
+	width:1800px;
+	position:absolute;
+	top:150px;
+	left : 50px;
+	background-color:#EBF5FF;
+}
+#home_items
+{
+	padding-left:50px;
+	
+}
+
+.addCert
+{
+	position:absolute;
+	top:1080px;
+	left:50%;
+}
+  #home_items input[type=text],input[type=password],input[type=date],input[type=number]{
+    background: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px 15px;
+    padding: 15px;
+    border-radius: 200px;
+    
+  }
+#home_items input[type=submit]
+{
+	 background-color: rgba(7,50,195,0.8);
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 20px;
+  }
+#home_items input[type=submit]:hover
+{
+  background-color: rgba(7,20,200,0.8);
+  font-weight: bold;
+}
+
+#admin_tab
+{
+	position:absolute;
+	
+}
